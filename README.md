@@ -1,6 +1,6 @@
 # README
 
-#### To run project you will need ruby version '2.X.X' and 'rails', '5.X.X'
+#### To run this project you will need ruby version '2.X.X' and 'rails', '5.X.X'
 #### Follow this tutorial for instructions https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm
 
 
