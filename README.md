@@ -20,7 +20,7 @@ To initalize project:
 
 ***NOTE: shop names must be unique***
 <br />
-***NOTE: order and product names must be unique within each store. You can not create duplicate orders or products (this is case insensitive) ex. A shop named RailsShop can not have two orders named GEMS and gem or products named model and Model. *** 
+***NOTE: order and product names must be unique within each store. You can not create duplicate orders or products (this is case insensitive) ex. A shop named RailsShop can not have two orders named GEMS and gem or products named model and Model.*** 
 <br/>
 
 ***NOTE: order totals (Order.value) are a running sum, updating the record directly will skew this value. Order totals should only be updated by adding or removing line items*** 
