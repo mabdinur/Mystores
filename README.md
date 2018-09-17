@@ -5,10 +5,10 @@ application up and running.
 
 To initalize project:
 
-   In the folder ..../mystore/..
+   In the root folder ..../Mystores
    
 	run 'bundle intall' to install all ruby gems
-	run 'db:drop db:create' to recreate a new local database 
+	run 'rails db:drop db:create' to recreate a new local database 
 	run 'rails db:migrate' to create the required tables in a local sqllite3 database  
 		*****all tables with similar names will be dropped*****
 	run 'rails db:seed' to seed the database with data
