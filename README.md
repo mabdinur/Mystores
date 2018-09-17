@@ -18,10 +18,15 @@ To initalize project:
 #### DO NOT RUN rails db:seed twice!!!! Duplicate Shop, order or product records can not will not be created!!!
 ####
 
-***NOTE: shop names must be unique*** \n
-***NOTE: order and product names must be unique within each store. You can not create duplicate orders or products (this is case insensitive) ex. A shop named RailsShop can not have two orders named GEMS and gem or products named model and Model. *** \n
-***NOTE: order totals (Order.value) are a running sum, updating the record directly will skew this value. Order totals should only be updated by adding or removing line items*** \n
-***NOTE: DO NOT CREATE LINEITEMS using Model.create or delete using Model.delete/Model.destroy. Use LineItems.add and LineItems.remove*** \n
+***NOTE: shop names must be unique***
+<br />
+***NOTE: order and product names must be unique within each store. You can not create duplicate orders or products (this is case insensitive) ex. A shop named RailsShop can not have two orders named GEMS and gem or products named model and Model. *** 
+<br/>
+
+***NOTE: order totals (Order.value) are a running sum, updating the record directly will skew this value. Order totals should only be updated by adding or removing line items*** 
+<br />
+***NOTE: DO NOT CREATE LINEITEMS using Model.create or delete using Model.delete/Model.destroy. Use LineItems.add and LineItems.remove***
+<br />
 
 	run 'rails c' in the ../mystore folder
 
