@@ -1,7 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### To create this project you will need ruby version '2.X.X' and 'rails', '5.X.X'
+#### Follow this tutorial for instructions https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm
+
 
 To initalize project:
 
